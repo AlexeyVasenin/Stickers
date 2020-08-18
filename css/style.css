@@ -1,0 +1,66 @@
+*{
+  margin:0 auto;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+
+
+aside {
+  float: right;
+  width:250px;
+  background: grey;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-self: 
+}
+
+
+.note_text {
+  width: 200px;
+  height: 250px;
+  resize: none;
+  padding: 30px;
+  font-size: 1.5em;
+  background: lightyellow;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.add_button {
+  border: none;
+  border-radius: 5px;
+}
+
+.stickies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.stickies li  {
+  margin-bottom: 20px;
+  padding: 15px;
+  width: 230px;
+  height: 250px;
+  text-align: center;
+  background: lightyellow;
+  /*border: 1px solid red;*/
+  box-shadow: 3px -3px 5px 0px grey;
+  transform: rotate(2deg);
+}
+
+.stickies li:hover {
+  opacity: 0.5;
+}
+
+.sticky {
+  font-family: Comic Sans MS, sans-serif;
+  font-size: 1.5em;
+}
